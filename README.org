@@ -1,1 +1,10 @@
 * autohotkey-scripts
+
+** AIMP quake-mode.ahk
+Win+Alt+A -> expand AIMP from its floating/compact mode ( Win-Alt- is a bit awkward, but matches OneCommander's Win-Alt-E...) )
+
+** Editor Anywhere.ahk
+Hotkey: Win+# in any text field
+1. Copies current selection (or whole field) to a temp file
+2. Opens it in a new emacsclient frame, blocks until the frame is closed
+3. Pastes the edited text back into the original control
